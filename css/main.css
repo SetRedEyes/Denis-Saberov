@@ -205,13 +205,25 @@ a:hover {
 /*Skills end*/
 /*Work*/
 .small-text {
-  display: flex;
-  justify-content: center;
+  height: 5.5rem;
+  display:flex;
   align-items: center;
-  height: 6rem;
+  justify-content: center
 }
 
-@media (max-width: 998px) {
+@media (max-width: 1200px) {
+  .small-text {
+    height: 7rem;
+  }
+}
+
+@media (max-width: 991px) {
+  .small-text {
+    height: 15rem;
+    
+  }
+}
+@media (max-width: 767px) {
   .small-text {
     height: 100%;
   }
