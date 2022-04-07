@@ -144,11 +144,9 @@ a:hover {
   padding-left: 0;
   padding-right: 0;
   text-align: center;
-  width: 70%;
 }
 
 .download-cv a {
-  display: block;
   padding: 8px 5px;
   background-color: #5bd1d7;
   border-radius: 5px;
@@ -161,6 +159,11 @@ a:hover {
   color: #000;
 }
 
+@media (max-width: 990px) {
+  .about-main h2 {
+    margin-top: 1rem;
+  }
+}
 @media (min-width: 990px) and (max-width: 1200px) {
   .about-img {
     margin-top: 3rem;
@@ -176,14 +179,6 @@ a:hover {
   }
 }
 
-@media (max-width: 300px) {
-  .download-cv {
-    width: 100%;
-  }
-  .download-cv a {
-    width: 100%;
-  }
-}
 /*About end*/
 /*Skills start*/
 
