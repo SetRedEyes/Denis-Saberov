@@ -177,6 +177,9 @@ a:hover {
 }
 
 @media (max-width: 300px) {
+  .download-cv {
+    width: 100%;
+  }
   .download-cv a {
     width: 100%;
   }
