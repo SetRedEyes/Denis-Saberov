@@ -103,9 +103,42 @@ a:hover {
   transition: 0.3s color ease;
   margin-right: 1rem;
 }
+
+.social-link a i {
+  animation: float 2.2s ease-in-out infinite;
+}
 .social-link a:hover {
   color: #5bd1d7;
 }
+
+.fa-linkedin-in {
+  animation-delay: 0s !important ;
+}
+.fa-github {
+  animation-delay: 0.5s !important ;
+}
+.fa-instagram {
+  animation-delay: 1s !important;
+}
+.fa-telegram-plane {
+  animation-delay: 1.5s !important;
+}
+.fa-facebook-f {
+  animation-delay: 2s !important;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
 .download-cv {
   display: flex;
   justify-content: space-between;
