@@ -16,7 +16,7 @@ a:hover {
 .skills,
 .work,
 .contact {
-  padding: 4em 0;
+  padding: 4rem 0;
 }
 .about,
 .work {
@@ -28,7 +28,7 @@ a:hover {
   background-image: url('../img/header.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center 60%;
   background-attachment: fixed;
   display: flex;
   flex-direction: column;
@@ -210,6 +210,15 @@ p.indent {
 }
 /*Skills end*/
 /*Work*/
+.work-header h3 {
+  user-select: none;
+  line-height: unset;
+  font-size: 2.2rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.2);
+}
+
 .small-text {
   height: 5.5rem;
   display:flex;
@@ -226,7 +235,6 @@ p.indent {
 @media (max-width: 991px) {
   .small-text {
     height: 15rem;
-    
   }
 }
 @media (max-width: 767px) {
