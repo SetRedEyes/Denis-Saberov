@@ -219,6 +219,10 @@ p.indent {
   color: rgba(0, 0, 0, 0.2);
 }
 
+.card-img-top{
+  height:10rem
+}
+
 .small-text {
   height: 5.5rem;
   display:flex;
