@@ -54,3 +54,14 @@ window.onload = function() {
   css.innerHTML = ".txt-rotate > .wrap { border-right: 0.2em solid #fff }";
   document.body.appendChild(css);
 };
+
+document.getElementById('showQr').addEventListener('click', function(event) {
+  event.preventDefault()
+  let imageContainer = document.getElementById('imageContainer')
+  console.log(imageContainer.style.display);
+  if(imageContainer.style.display === 'none' || imageContainer.style.display === '') {
+    imageContainer.style.display = 'flex'
+  } else {
+    imageContainer.style.display = 'none'
+  }
+})
