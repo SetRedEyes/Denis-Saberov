@@ -55,13 +55,13 @@ window.onload = function() {
   document.body.appendChild(css);
 };
 
-document.getElementById('showQr').addEventListener('click', function(event) {
-  event.preventDefault()
-  let imageContainer = document.getElementById('imageContainer')
-  console.log(imageContainer.style.display);
-  if(imageContainer.style.display === 'none' || imageContainer.style.display === '') {
-    imageContainer.style.display = 'flex'
-  } else {
-    imageContainer.style.display = 'none'
-  }
-})
+// document.getElementById('showQr').addEventListener('click', function(event) {
+//   event.preventDefault()
+//   let imageContainer = document.getElementById('imageContainer')
+//   console.log(imageContainer.style.display);
+//   if(imageContainer.style.display === 'none' || imageContainer.style.display === '') {
+//     imageContainer.style.display = 'flex'
+//   } else {
+//     imageContainer.style.display = 'none'
+//   }
+// })
