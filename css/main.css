@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,700,900&display=swap");
 * {
   scroll-behavior: smooth;
 }
 body {
-  font-family: 'Poppins', Tahoma, sans-serif;
+  font-family: "Poppins", Tahoma, sans-serif;
   /*margin: 0;*/
   /*padding: 0;*/
 }
@@ -25,7 +25,7 @@ a:hover {
 /*Header start*/
 .header {
   height: 100vh;
-  background-image: url('../img/header.jpg');
+  background-image: url("../img/header.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center 60%;
@@ -79,7 +79,6 @@ a:hover {
 }
 /*Header end*/
 /*About start*/
-
 
 .about {
   background-color: rgb(235, 235, 235);
@@ -146,15 +145,19 @@ p.indent {
 
 .download-cv {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   padding-left: 0;
   padding-right: 0;
   text-align: center;
+  padding-top: 2px;
+
 }
 
 .download-cv a {
-  padding: 8px 5px;
+  padding: 8px 10px;
   background-color: #5bd1d7;
+  justify-content: center;
+
   border-radius: 5px;
   font-weight: 700;
   color: #fff;
@@ -180,9 +183,9 @@ p.indent {
   .download-cv a {
     padding: 8px 15px;
   }
-  .download-cv a:last-child {
+  /* .download-cv a:last-child {
     margin-left: 2.5rem;
-  }
+  } */
 }
 
 /*About end*/
@@ -219,26 +222,25 @@ p.indent {
   color: rgba(0, 0, 0, 0.2);
 }
 
-.image-container{
+.image-container {
   display: none;
   justify-content: center;
-  max-width: 100%;  
+  max-width: 100%;
   padding-bottom: 2rem;
 }
-.qr-code{
+.qr-code {
   border-radius: 20px;
 }
 
-
-.card-img-top{
-  height:10rem
+.card-img-top {
+  height: 10rem;
 }
 
 .small-text {
   height: 5.5rem;
-  display:flex;
+  display: flex;
   align-items: center;
-  justify-content: center
+  justify-content: center;
 }
 
 @media (max-width: 1200px) {
